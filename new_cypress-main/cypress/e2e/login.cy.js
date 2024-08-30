@@ -51,13 +51,14 @@ describe('Проверка авторизации', function () {
         cy.get('#exitMessageButton > .exitIcon').should('be.visible'); // Есть крестик и виден для пользователя
     })  
     
-    it('Верный пароль и верный логин строчными буквами', function () {
+    it('Верный пароль и логин строчными буквами', function () {
         cy.visit('https://login.qa.studio/'); // Зашла на сайт
-        cy.get('#mail').type('GerMan@Dolnikov.ru'); // Ввела верный логин строчными буквами
+        cy.get('#mail').type('GerMan@Dolnikov.ru'); // Ввела логин строчными буквами
         cy.get('#pass').type('iLoveqastudio1'); // Ввела верный пароль
         cy.get('#loginButton').click(); // Нажала войти
-        cy.get('#messageHeader').contains('Такого логина или пароля нет'); // Проверила нужный текст
+        cy.get('#messageHeader').contains('Авторизация прошла успешно'); // Сообщение об успешной авторизации не отображается
         cy.get('#messageHeader').should('be.visible'); // Текст виден пользователю
         cy.get('#exitMessageButton > .exitIcon').should('be.visible'); // Есть крестик и виден для пользователя
+        
     })
  })
