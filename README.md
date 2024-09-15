@@ -26,7 +26,7 @@
 ![image](https://raw.githubusercontent.com/kristina-yakovleva-qa/cypress.js/main/user_data.png)
 
 4. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
+![image](https://raw.githubusercontent.com/kristina-yakovleva-qa/cypress.js/main/main_page.png)
 
 
 
@@ -39,8 +39,7 @@
 6. Выбрать в Cypress UI E2E тестирование и браузер Google Chrome
 7. Выбрать спеку lesson_locators
 
-Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
+
 
 
 ## Автор
