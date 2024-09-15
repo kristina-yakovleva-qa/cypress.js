@@ -23,7 +23,7 @@
 ![image](https://raw.githubusercontent.com/kristina-yakovleva-qa/cypress.js/main/locators.png)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
+![image](https://raw.githubusercontent.com/kristina-yakovleva-qa/cypress.js/main/user_data.png)
 
 4. Каждая страница описана в формате объекта с локаторами
 ![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
